@@ -3,7 +3,7 @@ import { ArrowRightIcon,} from '@chakra-ui/icons'
 import {Avatar, Box, Button, Grid, Heading, SimpleGrid, Spacer, Text} from "@chakra-ui/react"
 export const Project = () => {
   return (
-    <Box id='projects' w='80%' margin={'auto'} marginTop='100px' >
+    <Box id='projects' w='80%' margin={'auto'} marginTop='100px'marginBottom={'50px'} >
       <Heading  textAlign='center' marginBottom={'50px'}>Projects</Heading>
       <SimpleGrid columns={{lg:2,md:1,sm:1}} gap='50px'>
 

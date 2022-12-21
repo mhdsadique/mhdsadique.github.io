@@ -47,7 +47,6 @@ I am a Full stack web developer doing militry style coding and learning MERN Sta
 
             
 <Box>
-               {/* <Center> */}
           <Center>
         <Flex gap={10}>
        <a href="https://www.linkedin.com/in/muhammed-sadique-064385230/">

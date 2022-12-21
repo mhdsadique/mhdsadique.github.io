@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <Box id='about' w={'100%'} bg='rgba(0,0,0,.9)' color={'white'} marginTop='80px' >
 
-    <Box w={'70%'}  display='grid' alignItems='center'  textAlign="center" margin={"auto"}>
+    <Box w={'65%'}  display='grid' alignItems='center'  textAlign="center" margin={"auto"}>
       <Heading fontSize='2xl'
   fontWeight='extrabold' marginTop={'50px'}>
 About
