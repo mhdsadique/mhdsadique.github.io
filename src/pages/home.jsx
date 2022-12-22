@@ -1,7 +1,7 @@
 import { Avatar, Box, Button, Center, Flex, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import './home.css'
-import  mhdsadique from "./image/mhdsadique.jpg"
+import  mhdsadique from "./image/mhdsad.jpg"
 
 const Home = () => {
     return (
