@@ -1,6 +1,9 @@
 import { Box, Heading, Text } from '@chakra-ui/react'
 import React from 'react'
 
+
+
+
 export const About = () => {
   return (
     <Box id='about' w={'100%'} bg='rgba(0,0,0,.9)' color={'white'} marginTop='80px' >
