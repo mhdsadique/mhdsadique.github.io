@@ -1,5 +1,4 @@
-import React from 'react'
-import {Heading, Avatar, Box, Button, Center, Flex, Image, SimpleGrid, Text, Grid } from '@chakra-ui/react'
+import {Heading,  Box, Button, Center,SimpleGrid,Grid } from '@chakra-ui/react'
 
 export const Skills = () => {
   return (
@@ -10,7 +9,6 @@ export const Skills = () => {
 
       <Box textAlign={'center'} w={'80%'} margin='auto' >
       <SimpleGrid columns={{lg:2,md:2,sm:1}} >
-
    <Box   >
    <Heading size={'md'} padding='20px'>Frontend </Heading>
 

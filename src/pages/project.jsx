@@ -1,4 +1,3 @@
-import React from 'react'
 import { ArrowRightIcon,} from '@chakra-ui/icons'
 import {Avatar, Box, Button, Grid, Heading, SimpleGrid, Spacer, Text} from "@chakra-ui/react"
 export const Project = () => {

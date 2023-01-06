@@ -1,6 +1,5 @@
-import { Box, Button, Center, color, Flex, Grid, Heading, Image, Text } from '@chakra-ui/react'
-import React from 'react'
-import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
+import { Box, Button, Center, Grid, Heading, Image, Text } from '@chakra-ui/react'
+import { PhoneIcon } from '@chakra-ui/icons'
 
 export const Contact = () => {
   return (

@@ -1,7 +1,7 @@
 import { Box, Text, } from '@chakra-ui/react'
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link  } from 'react-scroll'
 
 import './navbar.css'
 
