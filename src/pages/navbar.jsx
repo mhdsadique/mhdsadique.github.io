@@ -1,4 +1,4 @@
-import { Text, } from '@chakra-ui/react'
+import { Box, Text, } from '@chakra-ui/react'
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
@@ -25,27 +25,29 @@ const Navbar = () => {
                         : (<FaBars size={30} style={{ color: '#ffffff',cursor:"pointer" }} />)}
 
                 </div>
+                <Box>
                 <ul className={click ? "nav-menu active" : "nav-menu"} >
                     <li className='nav-item' style={{cursor:'pointer'}}>
-                        <Link to="home"  activeStyle={{color: "yellow"}}  spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
+                        <Link to="home"  activeStyle={{color: "orange"}}  spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
                         {/* <a href='#about' onClick={closeMenu}>About</a> */}
-                        <Link to="about" activeStyle={{color: "yellow"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
+                        <Link to="about" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
                         {/* <a href='#skills' onClick={closeMenu}>Skills</a> */}
-                        <Link to="skills" activeStyle={{color: "yellow"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>skills</Link>
+                        <Link to="skills" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>skills</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
                         {/* <a href='#projects' onClick={closeMenu}>Projects</a> */}
-                        <Link to="projects" activeStyle={{color: "yellow"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>projects</Link>
+                        <Link to="projects" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>projects</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
                         {/* <a href='#contact' onClick={closeMenu}>Contact</a> */}
-                        <Link to="contact" activeStyle={{color: "yellow"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>contact</Link>
+                        <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>contact</Link>
                     </li>
                 </ul>
+                </Box>
             </nav>
         </div>
     )

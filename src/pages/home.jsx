@@ -1,7 +1,7 @@
 import { Avatar, Box, Button, Center, Flex, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import './home.css'
-import  mhdsadique from "./image/mhdsad.jpg"
+import  mhdsadique from "./image/mhdsad.png"
 
 const Home = () => {
     return (
@@ -13,7 +13,7 @@ const Home = () => {
 <Box w={'100%'} >
   <Center>
 
-  <Image height={'80%'} width={"50%"} name='muhammrd sadique'  src={mhdsadique} alt="mhd sadique" 
+  <Image boxShadow='base' p='6' rounded='md' bg='white' height={'100%'} width={"60%"} name='muhammrd sadique'  src={mhdsadique} alt="mhd sadique" 
 style={{borderRadius:"10%"}} />
 </Center>
 </Box>

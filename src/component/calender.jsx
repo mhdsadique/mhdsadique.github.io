@@ -7,7 +7,7 @@ const Calender = () => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
     const shownMonths = 10;
-
+console.log(currentYear)
     return contributions.filter((day) => {
       const date = new Date(day.date);
       const monthOfDay = date.getMonth();
@@ -21,6 +21,7 @@ const Calender = () => {
   };
   return (
     <Box  w='99%' margin={'auto'} >
+     
       <GitHubCalendar
         style={{ margin: "auto" }}
         username="mhdsadique"

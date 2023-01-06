@@ -5,9 +5,7 @@ const Stats = () => {
     <div>
       <div style={{ width: "50%", margin: "auto" }}>
         <a href="https://github.com/mhdsadique">
-          <img
-            align="left"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=mhdsadique"
+          <img   align="left"   src="https://github-readme-streak-stats.herokuapp.com/?user=mhdsadique"
           />
         </a>
       </div>
