@@ -1,5 +1,4 @@
-# //VERCEL_ORG_ID,  VERCEL_PROJECT_ID,  and VERCEL_TOKEN
-name: Github Action No. 2
+name: Github Action io
 on:
   push:
     branches: ["main"]
