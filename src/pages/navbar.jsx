@@ -25,7 +25,7 @@ const Navbar = () => {
                         : (<FaBars size={30} style={{ color: '#ffffff',cursor:"pointer" }} />)}
 
                 </div>
-                <Box>
+             
                 <ul className={click ? "nav-menu active" : "nav-menu"} >
                     <li className='nav-item' style={{cursor:'pointer'}}>
                         <Link to="home"  activeStyle={{color: "orange"}}  spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
                         <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>contact</Link>
                     </li>
                 </ul>
-                </Box>
+             
             </nav>
         </div>
     )
