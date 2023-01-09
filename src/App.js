@@ -13,12 +13,8 @@ const mytheme={
  color:"white",
  backgroundColor: "#4A5568",
 }//#805AD5
-const myfalse={
 
- }
 function App() {
-  const {theme}=useContext(AuthContext)
-
   return ( <>
 
     <Navbar />
