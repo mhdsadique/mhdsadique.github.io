@@ -7,7 +7,7 @@ const Calender = () => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
     const shownMonths = 10;
-console.log(currentYear)
+// console.log(currentYear)
     return contributions.filter((day) => {
       const date = new Date(day.date);
       const monthOfDay = date.getMonth();
@@ -26,8 +26,8 @@ console.log(currentYear)
         style={{ margin: "auto" }}
         username="mhdsadique"
         transformData={selectLastHalfYear}
-        blockSize={18}
-        // fontSize={10}
+        blockSize={20}
+        fontSize={20}
       >
          <ReactTooltip delayShow={20} html /> 
       </GitHubCalendar>

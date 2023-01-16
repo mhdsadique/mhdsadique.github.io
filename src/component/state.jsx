@@ -5,8 +5,7 @@ const Stats = () => {
     <div>
       <div style={{ width: "50%", margin: "auto" }}>
         <a href="https://github.com/mhdsadique">
-          <img   align="left"   src="https://github-readme-streak-stats.herokuapp.com/?user=mhdsadique"
-          />
+          <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=mhdsadique"/>
         </a>
       </div>
  
@@ -19,10 +18,7 @@ const Stats = () => {
         }}
       >
         <a href="https://github.com/mhdsadique">  
-          <img
-            align="center"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhdsadique"  //launguages
-          />
+          <img   align="center"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhdsadique"/>   
         </a>
         <a href="https://github.com/mhdsadique">
           <img

@@ -1,7 +1,7 @@
 import { Box, Text, } from '@chakra-ui/react'
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { Link  } from 'react-scroll'
+import { Button, Link  } from 'react-scroll'
 
 import './navbar.css'
 
@@ -46,8 +46,14 @@ const Navbar = () => {
                         {/* <a href='#contact' onClick={closeMenu}>Contact</a> */}
                         <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>contact</Link>
                     </li>
-                </ul>
-             
+              
+                <a href="https://drive.google.com/file/d/14xFKToC0yuN5EGO8NvGuLcoto6mSQb3D/view?usp=sharing"> 
+  <button  style={{marginLeft:"20px"}}> 
+  <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
+  fontSize='xl'
+  fontWeight='extrabold'>RESUME</Text></button>
+  </a>
+  </ul>
             </nav>
         </div>
     )
