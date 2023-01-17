@@ -2,7 +2,7 @@ import { Box, Text, } from '@chakra-ui/react'
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Button, Link  } from 'react-scroll'
-
+import resume from './resume/mhd-resume.pdf'
 import './navbar.css'
 
 const Navbar = () => {
@@ -47,7 +47,8 @@ const Navbar = () => {
                         <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>contact</Link>
                     </li>
               
-                <a href="https://drive.google.com/file/d/14xFKToC0yuN5EGO8NvGuLcoto6mSQb3D/view?usp=sharing"> 
+                {/* <a  href="https://drive.google.com/file/d/14xFKToC0yuN5EGO8NvGuLcoto6mSQb3D/view?usp=sharing" download>  */}
+                <a  href={resume} download> 
   <button  style={{marginLeft:"20px"}}> 
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='xl'
