@@ -1,10 +1,11 @@
-import { Box, Heading, Text } from '@chakra-ui/react'
+import { Box, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 
 export const About = () => {
   return (
-    <Box id='about' w={'100%'} bg='rgba(0,0,0,.9)' color={'white'} marginTop='80px' >
+    <Box  w={'100%'} bg='rgba(0,0,0,.9)' color={'white'} marginTop='80px' >
+       <SimpleGrid columns={{lg:2,md:1,sm:1}} >
 
-    <Box w={'65%'}  display='grid' alignItems='center'  textAlign="center" margin={"auto"}>
+    <Box  width={'80%'}  margin="auto" display='grid' alignItems='center'  textAlign="center" >
       <Heading fontSize='2xl'
   fontWeight='extrabold' marginTop={'50px'}>
 About
@@ -16,6 +17,13 @@ About
  mentioned  above  is  true  to  the  best  of  my  knowledge. I will make it my earnest endeavor to discharge competently and carefully  the duties you may be pleased to entrust with me..
   </Text>
     </Box>
+    
+    <Box margin="auto" width={'80%'}>
+        <img   width={'100%'}  src="https://cdn.dribbble.com/users/2401141/screenshots/5487982/developers-gif-showcase.gif" alt="animation" srcset="" />
+      </Box>
+    
+
+    </SimpleGrid>
     </Box>
   )
 }

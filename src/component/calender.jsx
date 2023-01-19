@@ -14,17 +14,16 @@ const Calender = () => {
         date.getFullYear() === currentYear &&
         monthOfDay > currentMonth - shownMonths &&
         monthOfDay <= currentMonth
-      ); });};
+      ); 
+    });};
   return (
-    <Box  w='99%' margin={'auto'} >
+    <Box  w='80%' margin={'auto'} >
      
       <GitHubCalendar
-        style={{ margin: "auto" }}
         username="mhdsadique"
-        transformData={selectLastHalfYear}
+        // transformData={selectLastHalfYear}
         blockSize={20}
-        fontSize={20}
-      >
+        fontSize={20}>
          <ReactTooltip delayShow={20} html /> 
       </GitHubCalendar>
     </Box>

@@ -1,7 +1,7 @@
-import { Box, Text, } from '@chakra-ui/react'
+import { Box, Text,Button } from '@chakra-ui/react'
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { Button, Link  } from 'react-scroll'
+import {  Link  } from 'react-scroll'
 import resume from './resume/mhd-resume.pdf'
 import './navbar.css'
 
@@ -49,10 +49,10 @@ const Navbar = () => {
               
                 {/* <a  href="https://drive.google.com/file/d/14xFKToC0yuN5EGO8NvGuLcoto6mSQb3D/view?usp=sharing" download>  */}
                 <a  href={resume} download> 
-  <button  style={{marginLeft:"20px"}}> 
+  <Button  > 
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='xl'
-  fontWeight='extrabold'>RESUME</Text></button>
+  fontWeight='extrabold'>RESUME</Text></Button>
   </a>
   </ul>
             </nav>
