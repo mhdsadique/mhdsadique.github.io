@@ -1,7 +1,7 @@
 import React from "react";
 const Stats = () => {
   return (
-    // streak 
+ 
     <div>
       <div style={{ display: "flex",  justifyContent:'center',margin:'auto'}}>
         <a href="https://github.com/mhdsadique">

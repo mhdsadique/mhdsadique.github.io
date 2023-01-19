@@ -2,7 +2,7 @@ import { Box, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 
 export const About = () => {
   return (
-    <Box  w={'100%'} bg='rgba(0,0,0,.9)' color={'white'} marginTop='80px' >
+    <Box id='about'  w={'100%'} bg='rgba(0,0,0,.9)' color={'white'} marginTop='80px' >
        <SimpleGrid columns={{lg:2,md:1,sm:1}} >
 
     <Box  width={'80%'}  margin="auto" display='grid' alignItems='center'  textAlign="center" >
@@ -19,7 +19,7 @@ About
     </Box>
     
     <Box margin="auto" width={'80%'}>
-        <img   width={'100%'}  src="https://cdn.dribbble.com/users/2401141/screenshots/5487982/developers-gif-showcase.gif" alt="animation" srcset="" />
+        <img   width={'100%'}  src="https://www.techieapps.com/wp-content/uploads/2018/12/hire-full-stack-developers.gif" alt="animation" srcset="" />
       </Box>
     
 
