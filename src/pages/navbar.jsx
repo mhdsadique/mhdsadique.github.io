@@ -2,7 +2,7 @@ import { Box, Text,Button } from '@chakra-ui/react'
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {  Link  } from 'react-scroll'
-import resume from './resume/mhd-resume.pdf'
+import resume from './resume/MuhammedSadique_resume.pdf'
 import './navbar.css'
 
 const Navbar = () => {
