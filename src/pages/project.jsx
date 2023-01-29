@@ -4,17 +4,18 @@ import myntra from "./image/myntraImage.png"
 import kfc from "./image/kfcImage.png"
 import mailtrap from "./image/mailtrapImage.png"
 import revv from "./image/revvImage.png"
+import nyka from "./image/landing-nyka.png"
 export const Project = () => {
   return (
     <Box id='projects' w='80%' margin={'auto'} marginTop='100px'marginBottom={'50px'} >
       <Heading  textAlign='center' marginBottom={'50px'}>Projects</Heading>
       <SimpleGrid columns={{lg:2,md:1,sm:1}} gap='50px'>
 
-      <Box   bgGradient= 'linear(to-r, red.500, yellow.500)' backgroundSize='cover'  backgroundRepeat= 'no-repeat' boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'} >
+      <Box   bgGradient= 'linear(to-r, red.500, yellow.500)' backgroundSize='cover'  backgroundRepeat= 'no-repeat' boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
+        <Grid gap={'30px'}>
       <Box>
         <img src="https://camo.githubusercontent.com/7d12732bab4e92ccaf01286a2d03f0999777bf0422d891afd664846f9b092670/68747470733a2f2f6d617361692d636f757273652e73332e61702d736f7574682d312e616d617a6f6e6177732e636f6d2f656469746f722f75706c6f6164732f323032322d31322d32312f6e656d6f775f6c616e64696e675f706167655f3234353838312e706e67" alt="" srcset="" />
       </Box>
-        <Grid gap={'30px'}>
 
         <Heading color={'white'} marginTop={'10px'}   size={'md'}>Sephora </Heading>
         <Text  fontSize={'2xl'} >Sephora.com is leading E-commerce web applicaton which provides wide range of beauty products.</Text>
@@ -49,10 +50,10 @@ export const Project = () => {
   </Grid>
       </Box>
       <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
+        <Grid gap={'30px'}>
       <Box>
         <img src={revv} alt="" srcset="" />
       </Box>
-        <Grid gap={'30px'}>
 
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Revv</Heading>
         <Text fontSize={'2xl'}>Revv is an Indian Car-rental startup that offers multiple option to meet all your self drive needs.</Text>
@@ -92,10 +93,10 @@ export const Project = () => {
       </Box>
       <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
      
+        <Grid gap={'30px'}>
       <Box>
         <img src={myntra} alt="mayntra" srcset="" />
       </Box>
-        <Grid gap={'30px'}>
 
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Myntra</Heading>
         <Text fontSize={'2xl'}>Myntra is leading E-commerce web applicaton which provides wide personal care, accessories & more.
@@ -136,19 +137,19 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   </Grid>
       </Box>
       <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
-      <Box>
-        <img src={mailtrap} alt="mailtrap" srcset="" />
-      </Box>
         <Grid gap={'30px'}>
+      <Box>
+        <img src={nyka} alt="mailtrap" srcset="" />
+      </Box>
 
-        <Heading color={'white'} marginTop={'10px'} size={'md'}>Mailtrap </Heading>
-        <Text fontSize={'2xl'}>Mailtrap is an email sandbox service for safe and easy but comprehensive email testing.</Text>
+        <Heading color={'white'} marginTop={'10px'} size={'md'}>Nyka </Heading>
+        <Text fontSize={'2xl'}>Nyka is an e-commerce website where all types of Skincare, Eyecare, Hairstyle and many more related products are available for men, women and kids.</Text>
         
-        <Text><Text as='b'>Tech Stack :</Text> React.js |Chackra UI | HTML | CSS | Javascript</Text>
+        <Text><Text as='b'>Tech Stack :</Text> Next.js |Chackra UI | CSS | Javascript</Text>
         <Spacer/>
         <Box w={'80%'} display='flex' justifyContent='space-around'>
       
-        <a  target="_blank" rel="noopener noreferrer" href="https://github.com/mhdsadique/eight-club-5364">  <Button
+        <a  target="_blank" rel="noopener noreferrer" href="https://github.com/mhdsadique/nyka_clone">  <Button
       w='130px'
   p={4}
   color='white'
@@ -161,7 +162,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   <Avatar size='xs' src='https://www.bing.com/th?id=OSK.b15146a8bebfb993c6dad4725c884d6d&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM' alt='github'/>
   </Button>
   </a>
-<a  target="_blank" rel="noopener noreferrer" href="https://miltron.vercel.app/">
+<a  target="_blank" rel="noopener noreferrer" href="https://secretive-form-5947-umber.vercel.app/">
 <Button
       w='100px'
   p={4}
@@ -178,10 +179,10 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   </Grid>
       </Box>
       <Box   bgGradient='linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md' color={'rgba(0,0,0,.9)'}>
+       <Grid gap={'30px'}>
       <Box>
         <img src={kfc} alt="kfc" srcset="" />
       </Box>
-       <Grid gap={'30px'}>
 
         <Heading color={'white'} marginTop={'10px'} size={'md'}>KFC </Heading>
         <Text fontSize={'2xl'}>KFC is a popular fast food chain that serves chicken , biscuits and other delicious dishes.</Text>
