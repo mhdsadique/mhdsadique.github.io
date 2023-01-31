@@ -46,14 +46,14 @@ const Navbar = () => {
                         {/* <a href='#contact' onClick={closeMenu}>Contact</a> */}
                         <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>contact</Link>
                     </li>
-              
-                {/* <a  href="https://drive.google.com/file/d/14xFKToC0yuN5EGO8NvGuLcoto6mSQb3D/view?usp=sharing" download>  */}
+            
+  {/* <a  target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aLKacbO5c-OSJ04G3nFggIaHiS2K2Vne/view?usp=sharing">  */}
                 <a  href={resume} download> 
   <Button  > 
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='xl'
-  fontWeight='extrabold'>RESUME</Text></Button>
-  </a>
+  fontWeight='extrabold'>RESUME</Text> </Button></a>
+  {/* </a> */}
   </ul>
             </nav>
         </div>

@@ -5,17 +5,20 @@ import kfc from "./image/kfcImage.png"
 import mailtrap from "./image/mailtrapImage.png"
 import revv from "./image/revvImage.png"
 import nyka from "./image/landing-nyka.png"
+import sephora from "./image/sephora-landing.png"
 export const Project = () => {
   return (
-    <Box id='projects' w='80%' margin={'auto'} marginTop='100px'marginBottom={'50px'} >
+    <Box id='projects' w='70%' margin={'auto'} marginTop='100px'marginBottom={'50px'} >
       <Heading  textAlign='center' marginBottom={'50px'}>Projects</Heading>
-      <SimpleGrid columns={{lg:2,md:1,sm:1}} gap='50px'>
-
-      <Box   bgGradient= 'linear(to-r, red.500, yellow.500)' backgroundSize='cover'  backgroundRepeat= 'no-repeat' boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
-        <Grid gap={'30px'}>
-      <Box>
-        <img src="https://camo.githubusercontent.com/7d12732bab4e92ccaf01286a2d03f0999777bf0422d891afd664846f9b092670/68747470733a2f2f6d617361692d636f757273652e73332e61702d736f7574682d312e616d617a6f6e6177732e636f6d2f656469746f722f75706c6f6164732f323032322d31322d32312f6e656d6f775f6c616e64696e675f706167655f3234353838312e706e67" alt="" srcset="" />
+      <SimpleGrid columns={{lg:1,md:1,sm:1}} gap='50px'>
+{/* ------------main */} {/* /------------box1 */}
+      <Box  bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
+        {/* <SimpleGrid gap={10} columns={{lg:2,md:1,sm:1}}> */}
+  <Grid gap={"20px"}>
+      <Box border="solid 1px white" w={"100%"} h="100%">
+        <img src={sephora} alt="sephora" srcset="" />
       </Box>
+
 
         <Heading color={'white'} marginTop={'10px'}   size={'md'}>Sephora </Heading>
         <Text  fontSize={'2xl'} >Sephora.com is leading E-commerce web applicaton which provides wide range of beauty products.</Text>
@@ -47,10 +50,13 @@ export const Project = () => {
   </Button>
   </a>
   </Box>
-  </Grid>
-      </Box>
+</Grid>
+  </Box>
+  {/* </SimpleGrid> */}
+    
+      {/* /------------box2 */}
       <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
-        <Grid gap={'30px'}>
+        <Grid gap={'20px'}>
       <Box>
         <img src={revv} alt="" srcset="" />
       </Box>
@@ -91,9 +97,10 @@ export const Project = () => {
   </Box>
   </Grid>
       </Box>
+      {/* ---------box3 */}
       <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
      
-        <Grid gap={'30px'}>
+        <Grid gap={'20px'}>
       <Box>
         <img src={myntra} alt="mayntra" srcset="" />
       </Box>
@@ -136,8 +143,9 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   </Box>
   </Grid>
       </Box>
+        {/* ---------box4 */}
       <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
-        <Grid gap={'30px'}>
+        <Grid gap={'20px'}>
       <Box>
         <img src={nyka} alt="mailtrap" srcset="" />
       </Box>
@@ -145,7 +153,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Nyka </Heading>
         <Text fontSize={'2xl'}>Nyka is an e-commerce website where all types of Skincare, Eyecare, Hairstyle and many more related products are available for men, women and kids.</Text>
         
-        <Text><Text as='b'>Tech Stack :</Text> Next.js |Chackra UI | CSS | Javascript</Text>
+        <Text><Text as='b'>Tech Stack :</Text> Next.js | Redux | Chackra UI | CSS | Javascript</Text>
         <Spacer/>
         <Box w={'80%'} display='flex' justifyContent='space-around'>
       
@@ -178,8 +186,9 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   </Box>
   </Grid>
       </Box>
+        {/* ---------box5 */}
       <Box   bgGradient='linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md' color={'rgba(0,0,0,.9)'}>
-       <Grid gap={'30px'}>
+       <Grid gap={'20px'}>
       <Box>
         <img src={kfc} alt="kfc" srcset="" />
       </Box>

@@ -34,8 +34,9 @@ Full Stack Web Developer !,
 I am a Full stack web developer doing militry style coding and learning MERN Stack at Masai School. I have done various group as well as individual projects in my coding journey.
 
 </Text>
-{/* <a href="https://drive.google.com/file/d/14xFKToC0yuN5EGO8NvGuLcoto6mSQb3D/view?usp=sharing">  */}
+{/* <a  target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aLKacbO5c-OSJ04G3nFggIaHiS2K2Vne/view?usp=sharing">  */}
 <a href={resume} download> 
+
   <Button size='lg'   bgGradient={[
     'linear(to-tr, teal.300, yellow.400)',
     'linear(to-t, blue.200, teal.500)',
@@ -43,7 +44,8 @@ I am a Full stack web developer doing militry style coding and learning MERN Sta
   ]} > 
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='2xl'
-  fontWeight='extrabold'>RESUME</Text></Button></a>
+  fontWeight='extrabold'>RESUME</Text></Button> </a> 
+  {/* </a> */}
             
 <Box>
           <Center>
