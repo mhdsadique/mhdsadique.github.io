@@ -1,4 +1,4 @@
-import { Box, Text,Button } from '@chakra-ui/react'
+import {  Text,Button } from '@chakra-ui/react'
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {  Link  } from 'react-scroll'
@@ -47,12 +47,17 @@ const Navbar = () => {
                         <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>contact</Link>
                     </li>
             
-  {/* <a  target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aLKacbO5c-OSJ04G3nFggIaHiS2K2Vne/view?usp=sharing">  */}
-                <a  href={resume} download> 
-  <Button  > 
+  {/* <a  target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing">  */}
+  {/* https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing */}
+                <a target="_blank" rel="noopener noreferrer" href={resume} download> 
+                {/* <a target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing'> */}
+  <Button  >
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='xl'
-  fontWeight='extrabold'>RESUME</Text> </Button></a>
+  fontWeight='extrabold'>RESUME</Text> 
+
+  </Button> 
+   </a>
   {/* </a> */}
   </ul>
             </nav>

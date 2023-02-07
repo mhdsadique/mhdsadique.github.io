@@ -19,7 +19,7 @@ About
     </Box>
     
     <Box margin="auto" width={'80%'}>
-        <img   width={'100%'}  src="https://www.techieapps.com/wp-content/uploads/2018/12/hire-full-stack-developers.gif" alt="animation" srcset="" />
+        <img   width={'100%'}  src="https://devtechnosys.com/insights/wp-content/uploads/2021/07/full-stack-development.gif" alt="animation" srcset="" />
       </Box>
     
 

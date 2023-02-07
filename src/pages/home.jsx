@@ -1,6 +1,6 @@
 import { Box, Button, Center, Flex, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import './home.css'
-import  mhdsadique from "./image/mhdsad.png"
+import  mhdsadique from "./image/mhdsadique.png"
 import resume from './resume/Muhammed-Sadique-Resume.pdf'
 
 const Home = () => {
