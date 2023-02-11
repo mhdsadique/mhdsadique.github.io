@@ -51,7 +51,7 @@ const Navbar = () => {
   {/* https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing */}
                 <a target="_blank" rel="noopener noreferrer" href={resume} download> 
                 {/* <a target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing'> */}
-  <Button  >
+  <Button onClick={()=>window.open("https://drive.google.com/file/d/1aLKacbO5c-OSJ04G3nFggIaHiS2K2Vne/view?usp=sharing",'_blank')} >
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='xl'
   fontWeight='extrabold'>RESUME</Text> 
