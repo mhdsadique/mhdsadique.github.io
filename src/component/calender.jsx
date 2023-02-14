@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
@@ -18,7 +18,7 @@ const Calender = () => {
     });};
   return (
     <Box  w='80%' margin={'auto'} >
-     
+      <Heading textAlign={'center'} marginBottom='15px' >Github Calendar</Heading>
       <GitHubCalendar
         username="mhdsadique"
         // transformData={selectLastHalfYear}

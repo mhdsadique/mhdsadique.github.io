@@ -36,15 +36,15 @@ const Navbar = () => {
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
                         {/* <a href='#skills' onClick={closeMenu}>Skills</a> */}
-                        <Link to="skills" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>skills</Link>
+                        <Link to="skills" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
                         {/* <a href='#projects' onClick={closeMenu}>Projects</a> */}
-                        <Link to="projects" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>projects</Link>
+                        <Link to="projects" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
                         {/* <a href='#contact' onClick={closeMenu}>Contact</a> */}
-                        <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>contact</Link>
+                        <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
             
   {/* <a  target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing">  */}
