@@ -6,10 +6,8 @@ import resume from './resume/Muhammed-Sadique-Resume.pdf'
 import './navbar.css'
 
 const Navbar = () => {
-
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
-
     const closeMenu = () => setClick(false)
 
     return (
@@ -31,40 +29,30 @@ const Navbar = () => {
                         <Link to="home"  activeStyle={{color: "orange"}}  spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
-                        {/* <a href='#about' onClick={closeMenu}>About</a> */}
-                        <Link to="about" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
+                <Link to="about" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
-                        {/* <a href='#skills' onClick={closeMenu}>Skills</a> */}
                         <Link to="skills" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
-                        {/* <a href='#projects' onClick={closeMenu}>Projects</a> */}
                         <Link to="projects" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item' style={{cursor:'pointer'}}>
-                        {/* <a href='#contact' onClick={closeMenu}>Contact</a> */}
+                
                         <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
-            
-  {/* <a  target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing">  */}
-  {/* https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing */}
                 <a target="_blank" rel="noopener noreferrer" href={resume} download> 
-                {/* <a target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1LpktnKh2o_wARC_lje5LIv4ICnM7S08m/view?usp=sharing'> */}
-  <Button onClick={()=>window.open("https://drive.google.com/file/d/1aLKacbO5c-OSJ04G3nFggIaHiS2K2Vne/view?usp=sharing",'_blank')} >
+  <Button bgColor={'rgba(0,0,0,.9)'} onClick={()=>window.open("https://drive.google.com/file/d/16sC9LNC5PkxRFVH2jRyslcsKLVZb6_Xu/view?usp=sharing",'_blank')} >
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='xl'
   fontWeight='extrabold'>RESUME</Text> 
-
   </Button> 
    </a>
-  {/* </a> */}
   </ul>
             </nav>
         </div>
     )
 }
-
 export default Navbar
 
 

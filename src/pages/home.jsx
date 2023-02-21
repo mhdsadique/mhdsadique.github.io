@@ -34,19 +34,15 @@ Full Stack Web Developer !,
 I am a Full stack web developer doing militry style coding and learning MERN Stack at Masai School. I have done various group as well as individual projects in my coding journey.
 
 </Text>
-{/* <a  target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aLKacbO5c-OSJ04G3nFggIaHiS2K2Vne/view?usp=sharing">  */}
 <a href={resume} download> 
-
-  <Button onClick={()=>window.open("https://drive.google.com/file/d/1aLKacbO5c-OSJ04G3nFggIaHiS2K2Vne/view?usp=sharing",'_blank')} size='lg'   bgGradient={[
+  <Button onClick={()=>window.open("https://drive.google.com/file/d/16sC9LNC5PkxRFVH2jRyslcsKLVZb6_Xu/view?usp=sharing",'_blank')} size='lg'   bgGradient={[
     'linear(to-tr, teal.300, yellow.400)',
     'linear(to-t, blue.200, teal.500)',
     'linear(to-b, orange.100, purple.300)',
   ]} > 
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='2xl'
-  fontWeight='extrabold'>RESUME</Text></Button> </a> 
-  {/* </a> */}
-            
+  fontWeight='extrabold'>RESUME</Text></Button> </a>           
 <Box>
           <Center>
         <Flex gap={10}>

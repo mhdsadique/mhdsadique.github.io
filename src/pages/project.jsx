@@ -2,7 +2,6 @@ import { ArrowRightIcon,} from '@chakra-ui/icons'
 import {Avatar, Box, Button, Grid, Heading, SimpleGrid, Spacer, Text} from "@chakra-ui/react"
 import myntra from "./image/myntraImage.png"
 import kfc from "./image/kfcImage.png"
-import mailtrap from "./image/mailtrapImage.png"
 import revv from "./image/revvImage.png"
 import nyka from "./image/landing-nyka.png"
 import sephora from "./image/sephora-landing.png"
@@ -27,9 +26,10 @@ export const Project = () => {
         <Spacer/>
         <Box  w={'80%'} display='flex' justifyContent='space-around'  >
         <a  target="_blank" rel="noopener noreferrer" href="https://github.com/gprasadbhat948231/unequaled-cracker-7155">  <Button
-      w='130px'p={4} color='white' fontWeight='bold'
-  borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+      w='130px'p={4} color='white' fontWeight='bold' borderRadius='md'
+  // bgGradient='linear(to-r, pink.400, pink.400)' 
+  bgGradient='linear(to-l, #7928CA, #FF0080)'
+  // bgColor={'rgba(0,0,0,.9)'}
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Source Code
@@ -43,7 +43,7 @@ export const Project = () => {
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Live <ArrowRightIcon/>
@@ -74,7 +74,7 @@ export const Project = () => {
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Source Code
@@ -88,7 +88,7 @@ export const Project = () => {
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Live <ArrowRightIcon/>
@@ -120,7 +120,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Source Code
@@ -134,7 +134,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Live <ArrowRightIcon/>
@@ -163,7 +163,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Source Code
@@ -177,7 +177,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Live <ArrowRightIcon/>
@@ -206,7 +206,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Source Code
@@ -220,7 +220,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
   color='white'
   fontWeight='bold'
   borderRadius='md'
-  bgGradient='linear(to-r, pink.400, pink.400)'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Live <ArrowRightIcon/>

@@ -2,7 +2,7 @@ import { Box, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 
 export const About = () => {
   return (
-    <Box id='about'  w={'100%'} bg='rgba(0,0,0,.9)' color={'white'} marginTop='80px' >
+    <Box id='about'  w={'100%'}  color='rgba(0,0,0,.9)' marginTop='80px' >
        <SimpleGrid columns={{lg:2,md:1,sm:1}} >
 
     <Box  width={'80%'}  margin="auto" display='grid' alignItems='center'  textAlign="center" >
