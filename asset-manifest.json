@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.49c94cd0.css",
-    "main.js": "/static/js/main.71c01e37.js",
+    "main.js": "/static/js/main.da717e74.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/mhdsadique.png": "/static/media/mhdsadique.11b4bc6e8f6589dce7ef.png",
     "static/media/myntraImage.png": "/static/media/myntraImage.0d8416f72de385e3b2b9.png",
     "static/media/kfcImage.png": "/static/media/kfcImage.39484f7bfc047c3133f7.png",
     "static/media/sephora-landing.png": "/static/media/sephora-landing.e0c073ff8d1557f10e86.png",
     "static/media/landing-nyka.png": "/static/media/landing-nyka.305d5cc97e9bc7fc5558.png",
-    "static/media/Muhammed-Sadique-Resume.pdf": "/static/media/Muhammed-Sadique-Resume.ae588dc6a277c0b71daa.pdf",
+    "static/media/Muhammed-Sadique-Resume.pdf": "/static/media/Muhammed-Sadique-Resume.4a153adadf2c69d56d41.pdf",
     "static/media/revvImage.png": "/static/media/revvImage.bf7e232671bbe0b3c712.png",
     "index.html": "/index.html",
     "main.49c94cd0.css.map": "/static/css/main.49c94cd0.css.map",
-    "main.71c01e37.js.map": "/static/js/main.71c01e37.js.map",
+    "main.da717e74.js.map": "/static/js/main.da717e74.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49c94cd0.css",
-    "static/js/main.71c01e37.js"
+    "static/js/main.da717e74.js"
   ]
 }
