@@ -12,7 +12,6 @@ export const Project = () => {
       <SimpleGrid columns={{lg:1,md:1,sm:1}} gap='50px'>
 {/* ------------main */} {/* /------------box1 */}
       <Box  bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
-        {/* <SimpleGrid gap={10} columns={{lg:2,md:1,sm:1}}> */}
   <Grid gap={"20px"}>
       <Box border="solid 1px white" w={"100%"} h="100%">
         <img src={sephora} alt="sephora" srcset="" />

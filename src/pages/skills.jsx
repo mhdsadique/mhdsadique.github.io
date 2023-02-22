@@ -110,15 +110,6 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 >
   <img style={{width:"80px"}} src="https://www.bing.com/th?id=OSK.6369cc7cb99b3a1eca38327120177828&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />
   </Button>
-  {/* <Button
-  size='md'
-  height='60px'
-  width='200px'
-  boxShadow='dark-lg' p='6' rounded='md' bg='white'
-
->
- <img style={{width:"80px"}} src="https://www.bing.com/th?id=OSK.2855bfb1e3b0ed64483d32a18b0bdf7d&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM" alt="" />
- </Button> */}
  </Grid>
 </Center>
    </Box>
@@ -131,13 +122,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
       <Box w='100%'>
    <Heading size={'md'}padding='20px' textAlign={'center'}>Tools</Heading>
 
-{/* <Box textAlign={'center'}  border={'solid 1px red'} margin="auto"> */}
-
 <Center>
-{/* <Grid gap={'20px'}> */}
-
-
-
 
    <SimpleGrid columns={{lg:3,md:3,sm:2}} >
 <Button
@@ -189,21 +174,8 @@ width='200px'
 boxShadow='dark-lg' p='6' rounded='md' bg='white'>
 <img style={{width:"60px"}} src="https://www.bing.com/th?id=OSK.9fdede4794d05f5eec77fbad77985638&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />
 </Button>
-{/* <Button
-size='md'
-height='60px'
-width='200px'
-boxShadow='dark-lg' p='6' rounded='md' bg='white'
-
->
-
-<img style={{width:"40px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/180px-CSS3_logo_and_wordmark.svg.png"  alt="react" />
-</Button> */}
      </SimpleGrid>
-{/* </Grid> */}
 </Center>
-{/* </Box> */}
-
       </Box>
       </Center>
     </Box>

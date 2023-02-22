@@ -35,7 +35,7 @@ I am a Full stack web developer doing militry style coding and learning MERN Sta
 
 </Text>
 <a href={resume} download> 
-  <Button onClick={()=>window.open("https://drive.google.com/file/d/16sC9LNC5PkxRFVH2jRyslcsKLVZb6_Xu/view?usp=sharing",'_blank')} size='lg'   bgGradient={[
+  <Button onClick={()=>window.open("https://drive.google.com/file/d/1XF55OnCmbYdXk1PwR3Sgg7woUTsERSOe/view?usp=sharing",'_blank')} size='lg'   bgGradient={[
     'linear(to-tr, teal.300, yellow.400)',
     'linear(to-t, blue.200, teal.500)',
     'linear(to-b, orange.100, purple.300)',

@@ -4,7 +4,6 @@ export const About = () => {
   return (
     <Box id='about'  w={'100%'}  color='rgba(0,0,0,.9)' marginTop='80px' >
        <SimpleGrid columns={{lg:2,md:1,sm:1}} >
-
     <Box  width={'80%'}  margin="auto" display='grid' alignItems='center'  textAlign="center" >
       <Heading fontSize='2xl'
   fontWeight='extrabold' marginTop={'50px'}>
@@ -17,12 +16,9 @@ About
  mentioned  above  is  true  to  the  best  of  my  knowledge. I will make it my earnest endeavor to discharge competently and carefully  the duties you may be pleased to entrust with me..
   </Text>
     </Box>
-    
     <Box margin="auto" width={'80%'}>
         <img   width={'100%'}  src="https://devtechnosys.com/insights/wp-content/uploads/2021/07/full-stack-development.gif" alt="animation" srcset="" />
       </Box>
-    
-
     </SimpleGrid>
     </Box>
   )
