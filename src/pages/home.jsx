@@ -2,15 +2,27 @@ import { Box, Button, Center, Flex, Image, SimpleGrid, Text } from '@chakra-ui/r
 import './home.css'
 import  mhdsadique from "./image/mhdsadique.png"
 import resume from './resume/Muhammed-Sadique-Resume.pdf'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 const Home = () => {
+  useEffect(()=>{
+    AOS.init(({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    }))
+     },[])
     return (
-        <div className='hero' id='home' >
+        <div  className='hero' id='home' >
  <SimpleGrid columns={{lg:2,md:1,sm:1}} >
 <Center>
 
 
-<Box w={'100%'} >
+<Box w={'100%'}  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" >
   <Center>
 
   <Image boxShadow='base' p='6' rounded='md' bg='white' height={'100%'} width={"60%"} name='muhammrd sadique'  src={mhdsadique} alt="mhd sadique" 
@@ -18,13 +30,17 @@ style={{borderRadius:"10%"}} />
 </Center>
 </Box>
 </Center><Center>
-            <Box className='content'>
-            <Text
+            <Box data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500"
+     className='content'>
+            <Text fontStyle={'italic'}
   bgGradient='linear(to-l, #7928CA, #FF0080)'
   bgClip='text'
   fontSize='2xl'
-  fontWeight='extrabold'>
-Hi, I am Muhammed Sadique,</Text >
+  fontWeight='extrabold'> 
+Hi, I am Muhammed Sadique, </Text >
 <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='2xl'
   fontWeight='extrabold'>
@@ -46,15 +62,15 @@ I am a Full stack web developer doing militry style coding and learning MERN Sta
 <Box>
           <Center>
         <Flex gap={10}>
-       <a href="https://www.linkedin.com/in/muhammed-sadique-064385230/">
+       <a href="https://www.linkedin.com/in/muhammed-sadique-064385230/" target={"_blank"} rel="noreferrer">
        <Image w="50px" src="https://media-exp1.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_100_100/0/1638831589865?e=1678924800&v=beta&t=g39mEwT0a4f25zx4YdClQnGd6q0Yb2ilFisuB3EPfng" alt="linkedIn"></Image>
 
        </a>
-       <a href="https://github.com/mhdsadique">
+       <a href="https://github.com/mhdsadique" target={"_blank"} rel="noreferrer">
        <Image w="50px" src="https://www.bing.com/th?id=OIP.ckeUFk-yid0vfWnd56w7wAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="github"></Image>
 
        </a>
-       <a href="mailto:mhdsadique8@gmail.com">
+       <a href="mailto:mhdsadique8@gmail.com" >
        <Image w="55px" src="https://www.bing.com/th?id=OIP.ZYBoGvR_bfdiAQLZZpVHQAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="email"></Image>
 
        </a>

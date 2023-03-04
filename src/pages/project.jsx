@@ -1,20 +1,31 @@
 import { ArrowRightIcon,} from '@chakra-ui/icons'
 import {Avatar, Box, Button, Grid, Heading, SimpleGrid, Spacer, Text} from "@chakra-ui/react"
 import myntra from "./image/myntraImage.png"
-import kfc from "./image/kfcImage.png"
 import revv from "./image/revvImage.png"
 import nyka from "./image/landing-nyka.png"
 import sephora from "./image/sephora-landing.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 export const Project = () => {
+
+  useEffect(()=>{
+    AOS.init(({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    }))
+     },[])
   return (
     <Box id='projects' w='70%' margin={'auto'} marginTop='100px'marginBottom={'50px'} >
       <Heading  textAlign='center' marginBottom={'50px'}>Projects</Heading>
       <SimpleGrid columns={{lg:1,md:1,sm:1}} gap='50px'>
 {/* ------------main */} {/* /------------box1 */}
-<Box   bgGradient='linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md' color={'rgba(0,0,0,.9)'}>
+<Box   bgGradient='linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md' color={'rgba(0,0,0,.9)'} data-aos="zoom-in" >
        <Grid gap={'20px'}>
-      <Box>
-        <img src={"https://camo.githubusercontent.com/b59381c77c8b9f47e89632b2a689b1d201df5b6a1b1d5753d00d8d532dfc07f2/68747470733a2f2f692e706f7374696d672e63632f4276395756686a342f53637265656e73686f742d313033342e706e67"} alt="clothiyard" srcset="" />
+      <Box >
+        <img src={"https://camo.githubusercontent.com/b59381c77c8b9f47e89632b2a689b1d201df5b6a1b1d5753d00d8d532dfc07f2/68747470733a2f2f692e706f7374696d672e63632f4276395756686a342f53637265656e73686f742d313033342e706e67"} alt="clothiyard"  />
       </Box>
 
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Clotheyard </Heading>
@@ -54,10 +65,10 @@ export const Project = () => {
   </Grid>
       </Box>
            {/* ---------box4 */}
-           <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
+           <Box data-aos="zoom-in" bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
         <Grid gap={'20px'}>
       <Box>
-        <img src={nyka} alt="mailtrap" srcset="" />
+        <img src={nyka} alt="nyka"  />
       </Box>
 
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Nyka </Heading>
@@ -67,7 +78,7 @@ export const Project = () => {
         <Spacer/>
         <Box w={'80%'} display='flex' justifyContent='space-around'>
       
-        <a  target="_blank" rel="noopener noreferrer" href="https://github.com/mhdsadique/nyka_clone">  <Button
+        <a  target="_blank" rel="noopener noreferrer" href="https://github.com/ankitraju123/secretive-form-5947">  <Button
       w='130px'
   p={4}
   color='white'
@@ -97,10 +108,10 @@ export const Project = () => {
   </Grid>
       </Box>
       {/* ////box 2 */}
-      <Box  bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
+      <Box data-aos="zoom-in"  bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
   <Grid gap={"20px"}>
       <Box border="solid 1px white" w={"100%"} h="100%">
-        <img src={sephora} alt="sephora" srcset="" />
+        <img src={sephora} alt="sephora"  />
       </Box>
 
 
@@ -140,10 +151,10 @@ export const Project = () => {
   {/* </SimpleGrid> */}
     
       {/* /------------box2 */}
-      <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
+      <Box data-aos="zoom-in" bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
         <Grid gap={'20px'}>
       <Box>
-        <img src={revv} alt="" srcset="" />
+        <img src={revv} alt=""  />
       </Box>
 
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Revv</Heading>
@@ -183,11 +194,11 @@ export const Project = () => {
   </Grid>
       </Box>
       {/* ---------box3 */}
-      <Box bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
+      <Box data-aos="zoom-in" bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
      
         <Grid gap={'20px'}>
       <Box>
-        <img src={myntra} alt="mayntra" srcset="" />
+        <img src={myntra} alt="mayntra"  />
       </Box>
 
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Myntra</Heading>
@@ -197,11 +208,12 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
         
         <Text><Text as='b'>Tech Stack :</Text>  HTML | CSS | Javascript</Text>
         <Spacer/>
-        <Box w={'80%'} display='flex' justifyContent='space-around'>
+        <Box w={'80%'} display='flex' justifyContent='space-around' color={"red"}>
        
-        <a  target="_blank" rel="noopener noreferrer" href="https://github.com/Gauravkumar03/myntra-website">  <Button
+        <a  target="_blank" rel="noopener noreferrer" href="https://github.com/Gauravkumar03/myntra-website"> 
+         <Button
       w='130px'
-  p={4}
+  // p={4}
   color='white'
   fontWeight='bold'
   borderRadius='md'
@@ -215,7 +227,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
 <a  target="_blank" rel="noopener noreferrer" href="https://tangerine-lokum-eb294a.netlify.app/">
 <Button
       w='100px'
-  p={4}
+  // p={4}
   color='white'
   fontWeight='bold'
   borderRadius='md'

@@ -11,17 +11,16 @@ const Navbar = () => {
     const closeMenu = () => setClick(false)
 
     return (
-        <div className='header'>
+        <div className='header' >
             <nav className='navbar'>
                 <a href='/' className='logo'>
             
-                    <Text bgGradient='linear(to-l, #7928CA, #FF0080)'bgClip='text'
+                    <Text bgGradient='linear(to-l, #7928CA, #FF0080)'bgClip='text'fontStyle={"italic"}
   fontSize='2xl'fontWeight='extrabold'>MUHAMMED SADIQUE</Text>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' ,cursor:"pointer"}} />)
                         : (<FaBars size={30} style={{ color: '#ffffff',cursor:"pointer" }} />)}
-
                 </div>
              
                 <ul className={click ? "nav-menu active" : "nav-menu"} >

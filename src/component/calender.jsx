@@ -2,7 +2,14 @@ import { Box, Heading } from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 const Calender = () => {
+
+  useEffect(()=>{
+    AOS.init()
+     },[])
   const selectLastHalfYear = (contributions) => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
@@ -17,7 +24,7 @@ const Calender = () => {
       ); 
     });};
   return (
-    <Box  w='80%' margin={'auto'} >
+    <Box  data-aos="zoom-in"  w='80%' margin={'auto'} >
       <Heading textAlign={'center'} marginBottom='15px' >Github Calendar</Heading>
       <GitHubCalendar
         username="mhdsadique"

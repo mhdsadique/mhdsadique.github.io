@@ -1,6 +1,17 @@
 import {Heading,  Box, Button, Center,SimpleGrid,Grid } from '@chakra-ui/react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 export const Skills = () => {
+  useEffect(()=>{
+    AOS.init(({
+      offset: 400,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    }))
+     },[])
   return (
     <Box id='skills' w={'100%'}>
       <Center>
@@ -9,7 +20,7 @@ export const Skills = () => {
 
       <Box textAlign={'center'} w={'80%'} margin='auto' >
       <SimpleGrid columns={{lg:2,md:2,sm:1}} >
-   <Box   >
+   <Box  data-aos="zoom-in" >
    <Heading size={'md'} padding='20px'>Frontend </Heading>
 
 <Center>
@@ -77,7 +88,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
    </Grid>
 </Center>
    </Box>
-   <Box  >
+   <Box data-aos="zoom-in" >
    <Heading size={'md'}padding='20px'>Backend</Heading>
 
    <Center>
@@ -117,14 +128,14 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
       </Box>
 
 
-
+{/* ----------toools---------- */}
  <Center>
-      <Box w='100%'>
+      <Box w='100%' data-aos="zoom-in" >
    <Heading size={'md'}padding='20px' textAlign={'center'}>Tools</Heading>
 
 <Center>
 
-   <SimpleGrid columns={{lg:3,md:3,sm:2}} >
+   <SimpleGrid columns={{lg:3,md:3,sm:2}} gap={"10px"}>
 <Button
 size='md'
 height='60px'

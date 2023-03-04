@@ -1,18 +1,29 @@
 import { Box, Button, Center, Grid, Heading, Image, Text } from '@chakra-ui/react'
 import { PhoneIcon } from '@chakra-ui/icons'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 export const Contact = () => {
+  useEffect(()=>{
+    AOS.init(({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    }))
+     },[])
   return (
     <Box id='contact'  w='100%' bg='rgba(0,0,0,.9)' textalign='center' marginTop={'70px'} >
       <Center>
 
       <Heading color={'white'} marginTop={'40px'} marginBottom='30px'>Contact Me</Heading>
       </Center>
-      <Box>
+      <Box data-aos="zoom-in">
                {/* <Center> */}
           <Center>
         <Grid gap={10}>
-       <a href="https://www.linkedin.com/in/muhammed-sadique-064385230/">
+       <a href="https://www.linkedin.com/in/muhammed-sadique-064385230/" target={"_blank"} rel="noreferrer">
        <Button color={'white'} gap='10px' size='md' height='48px' width='230px'border='2px'
   bgGradient={[ 'linear(to-tr, rgba(0,0,0,.9), rgba(0,0,0,.9))' ]}
   _hover={{
@@ -24,7 +35,7 @@ export const Contact = () => {
        </a>
 
 
-       <a href="https://github.com/mhdsadique">
+       <a href="https://github.com/mhdsadique" target={"_blank"} rel="noreferrer">
        <Button color={'white'} gap='10px' size='md' height='48px' width='230px'border='2px'
   bgGradient={[ 'linear(to-tr, rgba(0,0,0,.9), rgba(0,0,0,.9))' ]}
   _hover={{
