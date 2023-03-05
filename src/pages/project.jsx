@@ -1,5 +1,5 @@
 import { ArrowRightIcon,} from '@chakra-ui/icons'
-import {Avatar, Box, Button, Grid, Heading, SimpleGrid, Spacer, Text} from "@chakra-ui/react"
+import {Avatar, Box, Button, Flex, Grid, Heading, SimpleGrid, Spacer, Text} from "@chakra-ui/react"
 import myntra from "./image/myntraImage.png"
 import revv from "./image/revvImage.png"
 import nyka from "./image/landing-nyka.png"
@@ -11,7 +11,7 @@ export const Project = () => {
 
   useEffect(()=>{
     AOS.init(({
-      offset: 200,
+      offset: 160,
       duration: 600,
       easing: 'ease-in-sine',
       delay: 100,
@@ -33,8 +33,7 @@ export const Project = () => {
         
         <Text ><Text as='b'>Tech Stack :</Text> React.js | Chackra UI | HTML | CSS | Javascript | Express | Mongoose | Mongodb</Text>
         <Spacer/>
-        <Box w={'80%'} display='flex' justifyContent='space-around'>
-      
+        <Box w={'80%'} display='flex' alignItems={"center"} justifyContent="center"gap={"15px"} margin="auto">
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/PriyanshuPatil/Clotheyard.com">  <Button
       w='130px'
   p={4}
@@ -61,6 +60,7 @@ export const Project = () => {
   }}>Live <ArrowRightIcon/>
   </Button>
   </a>
+  {/* </Flex> */}
   </Box>
   </Grid>
       </Box>
@@ -76,7 +76,7 @@ export const Project = () => {
         
         <Text><Text as='b'>Tech Stack :</Text> Next.js | Redux | Chackra UI | CSS | Javascript</Text>
         <Spacer/>
-        <Box w={'80%'} display='flex' justifyContent='space-around'>
+        <Box w={'80%'} display='flex' alignItems={"center"} justifyContent="center"gap={"15px"} margin="auto">
       
         <a  target="_blank" rel="noopener noreferrer" href="https://github.com/ankitraju123/secretive-form-5947">  <Button
       w='130px'
@@ -120,12 +120,10 @@ export const Project = () => {
         
         <Text ><Text as='b'>Tech Stack :</Text> React.js | Redux | Chackra UI | HTML | CSS | Javascript | Redux</Text>
         <Spacer/>
-        <Box  w={'80%'} display='flex' justifyContent='space-around'  >
+        <Box  w={'80%'}  display='flex' alignItems={"center"} justifyContent="center"gap={"15px"} margin="auto"  >
         <a  target="_blank" rel="noopener noreferrer" href="https://github.com/gprasadbhat948231/unequaled-cracker-7155">  <Button
       w='130px'p={4} color='white' fontWeight='bold' borderRadius='md'
-  // bgGradient='linear(to-r, pink.400, pink.400)' 
   bgGradient='linear(to-l, #7928CA, #FF0080)'
-  // bgColor={'rgba(0,0,0,.9)'}
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>Source Code
@@ -154,7 +152,7 @@ export const Project = () => {
       <Box data-aos="zoom-in" bgGradient= 'linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md'  color={'rgba(0,0,0,.9)'}>
         <Grid gap={'20px'}>
       <Box>
-        <img src={revv} alt=""  />
+        <img src={revv} alt="revv"  />
       </Box>
 
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Revv</Heading>
@@ -162,7 +160,7 @@ export const Project = () => {
         
         <Text><Text as='b'>Tech Stack :</Text>  HTML | CSS | Javascript</Text>
         <Spacer/>
-        <Box w={'80%'} display='flex' justifyContent='space-around'>
+        <Box w={'80%'}  display='flex' alignItems={"center"} justifyContent="center"gap={"15px"} margin="auto">
       
         <a  target="_blank" rel="noopener noreferrer" href="https://github.com/GauravPimplekar/redundant-war-8078">  <Button
       w='130px'
@@ -208,12 +206,12 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
         
         <Text><Text as='b'>Tech Stack :</Text>  HTML | CSS | Javascript</Text>
         <Spacer/>
-        <Box w={'80%'} display='flex' justifyContent='space-around' color={"red"}>
+        <Box w={'80%'}  display='flex' alignItems={"center"} justifyContent="center"gap={"15px"} margin="auto" >
        
         <a  target="_blank" rel="noopener noreferrer" href="https://github.com/Gauravkumar03/myntra-website"> 
          <Button
       w='130px'
-  // p={4}
+  p={4}
   color='white'
   fontWeight='bold'
   borderRadius='md'
@@ -227,7 +225,7 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
 <a  target="_blank" rel="noopener noreferrer" href="https://tangerine-lokum-eb294a.netlify.app/">
 <Button
       w='100px'
-  // p={4}
+  p={4}
   color='white'
   fontWeight='bold'
   borderRadius='md'

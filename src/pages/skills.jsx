@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 export const Skills = () => {
   useEffect(()=>{
     AOS.init(({
-      offset: 400,
+      offset: 160,
       duration: 600,
       easing: 'ease-in-sine',
       delay: 100,
@@ -26,14 +26,14 @@ export const Skills = () => {
 <Center>
 
    <Grid gap={'20px'}>
-   <Button
+   <Button data-aos="zoom-in" 
   size='md'
   height='60px'
   width='200px'
 boxShadow='dark-lg' p='6' rounded='md' bg='white'
 >  <img  style={{width:"70px"}} src="https://www.bing.com/th?id=OSK.ba13f442edde2a689da52b7784617c05&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react"  />
 </Button>
-<Button
+<Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -41,7 +41,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 >
   <img style={{width:"80px"}} src="https://www.bing.com/th?id=OSK.1d38bd7bfd244a573a3170a3f753c900&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react"  />
   </Button>
-  <Button
+  <Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -49,7 +49,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 >
 
   <img style={{width:"80px"}} src="https://www.bing.com/th?id=OSK.7725c07a837e7c19288888aefb937d35&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />
-  </Button> <Button
+  </Button> <Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -57,7 +57,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 >
  
   <img style={{width:"60px"}} src="https://static.javatpoint.com/images/javascript/javascript_logo.png"  alt="react" />
-  </Button> <Button
+  </Button> <Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -66,7 +66,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
  
 <img style={{width:"60px"}} src="https://www.bing.com/th?id=OSK.ad0ecb359ba825ee4ee36a258cd082a9&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />
 </Button>
-<Button
+<Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -75,7 +75,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 
   <img style={{width:"50px"}} src="https://www.bing.com/th?id=OSK.245a0c598c9232fbf3012ded3336f4c4&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />
   </Button>
-  <Button
+  <Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -94,7 +94,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
    <Center>
 
 <Grid gap={'20px'}>
-<Button
+<Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -103,7 +103,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 > 
   <img style={{width:"100px"}} src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/express-logo-528x240.png"  alt="react" />
   </Button>
-   <Button
+   <Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -112,7 +112,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 > 
  <img style={{width:"80px"}} src="https://www.bing.com/th?id=OSK.5bf4de34d8317d399f0d701027322bbc&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />
  </Button>
-  <Button
+  <Button data-aos="zoom-in"
   size='md'
   height='60px'
   width='200px'
@@ -136,14 +136,14 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 <Center>
 
    <SimpleGrid columns={{lg:3,md:3,sm:2}} gap={"10px"}>
-<Button
+<Button data-aos="zoom-in"
 size='md'
 height='60px'
 width='200px'
 boxShadow='dark-lg' p='6' rounded='md' bg='white'
 >  <img  style={{width:"50px"}} src="https://www.bing.com/th?id=OSK.f7b9c150ce4a552225f3285d2045d78b&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />
 </Button>
-<Button
+<Button data-aos="zoom-in"
 size='md'
 height='60px'
 width='200px'
@@ -152,7 +152,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 
 <img style={{width:"50px"}} src="https://www.bing.com/th?id=OSK.b15146a8bebfb993c6dad4725c884d6d&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react"  />
 </Button>
-<Button
+<Button data-aos="zoom-in"
 size='md'
 height='60px'
 width='200px'
@@ -160,7 +160,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 >
 
 <img style={{width:"60px"}} src="https://www.bing.com/th?id=AMMS_140e43bcedca90dcd8a8e353b64e999d&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />CYPRESS
-</Button> <Button
+</Button> <Button data-aos="zoom-in"
 size='md'
 height='60px'
 width='200px'
@@ -169,7 +169,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 
 <img style={{width:"60px"}} src="https://www.bing.com/th?id=OSK.43d35f106164cf8683dc62afd2102d69&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react"  />
 </Button>
- <Button
+ <Button data-aos="zoom-in"
 size='md'
 height='60px'
 width='200px'
@@ -178,7 +178,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 
 <img style={{width:"50px"}} src="https://www.bing.com/th?id=AMMS_9f9139c5534e00448b72088aebb168e0&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" />
 </Button>
-<Button
+<Button data-aos="zoom-in"
 size='md'
 height='60px'
 width='200px'

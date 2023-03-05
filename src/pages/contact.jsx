@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 export const Contact = () => {
   useEffect(()=>{
     AOS.init(({
-      offset: 200,
+      offset: 160,
       duration: 600,
       easing: 'ease-in-sine',
       delay: 100,

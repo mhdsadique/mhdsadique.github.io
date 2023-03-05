@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 export const About = () => {
   useEffect(()=>{
     AOS.init(({
-      offset: 200,
+      offset: 150,
       duration: 600,
       easing: 'ease-in-sine',
       delay: 100,
@@ -26,11 +26,11 @@ About
  mentioned  above  is  true  to  the  best  of  my  knowledge. I will make it my earnest endeavor to discharge competently and carefully  the duties you may be pleased to entrust with me..
   </Text>
     </Box>
-    <Box data-aos="fade-left"
+    <Box  
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="500"  margin="auto" width={'80%'} >
-        <img   width={'100%'}  src="https://devtechnosys.com/insights/wp-content/uploads/2021/07/full-stack-development.gif" alt="animation" />
+        <img data-aos="zoom-in"  width={'100%'}  src="https://devtechnosys.com/insights/wp-content/uploads/2021/07/full-stack-development.gif" alt="animation" />
       </Box>
     </SimpleGrid>
     </Box>
