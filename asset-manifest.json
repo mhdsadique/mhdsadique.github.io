@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.caa10eec.css",
-    "main.js": "/static/js/main.0415c0fd.js",
+    "main.css": "/static/css/main.a92b8b64.css",
+    "main.js": "/static/js/main.7a5d17b0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/mhdsadique.png": "/static/media/mhdsadique.11b4bc6e8f6589dce7ef.png",
     "static/media/myntraImage.png": "/static/media/myntraImage.0d8416f72de385e3b2b9.png",
@@ -10,12 +10,12 @@
     "static/media/Muhammed-Sadique-Resume.pdf": "/static/media/Muhammed-Sadique-Resume.4a153adadf2c69d56d41.pdf",
     "static/media/revvImage.png": "/static/media/revvImage.bf7e232671bbe0b3c712.png",
     "index.html": "/index.html",
-    "main.caa10eec.css.map": "/static/css/main.caa10eec.css.map",
-    "main.0415c0fd.js.map": "/static/js/main.0415c0fd.js.map",
+    "main.a92b8b64.css.map": "/static/css/main.a92b8b64.css.map",
+    "main.7a5d17b0.js.map": "/static/js/main.7a5d17b0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.caa10eec.css",
-    "static/js/main.0415c0fd.js"
+    "static/css/main.a92b8b64.css",
+    "static/js/main.7a5d17b0.js"
   ]
 }
