@@ -4,10 +4,13 @@ import myntra from "./image/myntraImage.png"
 import revv from "./image/revvImage.png"
 import nyka from "./image/landing-nyka.png"
 import sephora from "./image/sephora-landing.png"
+import "./project.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+
 export const Project = () => {
+  
 
   useEffect(()=>{
     AOS.init(({
@@ -18,7 +21,7 @@ export const Project = () => {
     }))
      },[])
   return (
-    <Box id='projects' w='70%' margin={'auto'} marginTop='100px'marginBottom={'50px'} >
+    <Box className='boxses'  id='projects' margin={'auto'}  marginTop='100px'marginBottom={'50px'} >
       <Heading  textAlign='center' marginBottom={'50px'}>Projects</Heading>
       <SimpleGrid columns={{lg:1,md:1,sm:1}} gap='50px'>
 {/* ------------main */} {/* /------------box1 */}
@@ -240,7 +243,6 @@ Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra products.</Tex
       </Box>
    
         {/* ---------box5 */}
-    
       </SimpleGrid>
     </Box>
   )

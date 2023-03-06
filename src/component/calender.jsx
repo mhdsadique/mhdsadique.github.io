@@ -8,7 +8,12 @@ import { useEffect } from 'react'
 const Calender = () => {
 
   useEffect(()=>{
-    AOS.init()
+    AOS.init(({
+      offset: 150,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    }))
      },[])
   const selectLastHalfYear = (contributions) => {
     const currentYear = new Date().getFullYear();
@@ -24,15 +29,17 @@ const Calender = () => {
       ); 
     });};
   return (
-    <Box  data-aos="zoom-in"  w='80%' margin={'auto'} >
+    <Box  data-aos="zoom-in" w={"100%"}margin='auto' >
       <Heading textAlign={'center'} marginBottom='15px' >Github Calendar</Heading>
-      <GitHubCalendar
-        username="mhdsadique"
-        // transformData={selectLastHalfYear}
-        blockSize={20}
-        fontSize={20}>
+      <Box  margin='auto' justifyContent={"center"}display='flex' alignItems="center">
+
+      <GitHubCalendar  
+      username="mhdsadique"
+      blockSize={18}
+      fontSize={10}>
          <ReactTooltip delayShow={20} html /> 
       </GitHubCalendar>
+          </Box>
     </Box>
   );
 };
