@@ -1,6 +1,46 @@
+@media screen and (max-width:500px) {
+    .names  {
+        width:100%;
+     font-size: 13px;
+    }
+    .hero{
+        width: auto;
+    }
+    .bttexpalin{
+        font-size: 12px;
+    }
+    .about{
+        font-size: 14px;
+    }
+    .aboutbox{
+        margin-top: 10px;
+    }
+ 
+  }
+@media screen and (min-width:501px) {
+    .hero{
+        width: 80%;
+    }
+    .names{
+        font-size: 20px;
+    }
+    .bttexpalin{
+        font-size: 18px;
+    }
+    .about{
+        font-size: 18px;
+    }
+    .aboutbox{
+        margin-top: 40px;
+    }
+  }
+  
+  
+
+
 .hero {
     background-color: var(--overlay);
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     display: flex;
     align-items: center;

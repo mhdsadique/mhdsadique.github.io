@@ -94,7 +94,7 @@ export const Project = () => {
   <Avatar size='xs' src='https://www.bing.com/th?id=OSK.b15146a8bebfb993c6dad4725c884d6d&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM' alt='github'/>
   </Button>
   </a>
-<a  target="_blank" rel="noopener noreferrer" href="https://secretive-form-5947-umber.vercel.app/">
+<a  target="_blank" rel="noopener noreferrer" href="https://secretive-form-5947-brar21-varinderbrar.vercel.app/">
 <Button
       w='100px'
   p={4}

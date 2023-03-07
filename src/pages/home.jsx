@@ -1,5 +1,6 @@
 import { Box, Button, Center, Flex, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import './home.css'
+import MovingText from 'react-moving-text'
 import  mhdsadique from "./image/mhdsadique.png"
 import resume from './resume/Muhammed-Sadique-Resume.pdf'
 import AOS from 'aos';
@@ -15,7 +16,7 @@ const Home = () => {
     }))
      },[])
     return (
-        <div  className='hero' id='home' >
+        <Box  className='hero' id='home' >
  <SimpleGrid columns={{lg:2,md:1,sm:1}} >
 <Center>
 
@@ -29,20 +30,32 @@ style={{borderRadius:"10%"}} />
 </Center>
 </Box>
 </Center><Center>
-            <Box data-aos="zoom-in"
+            <Box   data-aos="zoom-in"
      className='content'>
+       <SimpleGrid columns={{lg:1,md:1,sm:1}} >
             <Text fontStyle={'italic'} data-aos="zoom-in"
   bgGradient='linear(to-l, #7928CA, #FF0080)'
   bgClip='text'
-  fontSize='2xl'
+ className='names'
   fontWeight='extrabold'> 
-Hi, I am Muhammed Sadique, </Text >
+Hi, I am  </Text > 
+<Text fontStyle={'italic'} data-aos="zoom-in"
+  bgGradient='linear(to-l, #7928CA, #FF0080)'
+  bgClip='text'
+ className='names'
+  fontWeight='extrabold'>  Muhammed Sadique, </Text >
+  </SimpleGrid>
+
 <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
-  fontSize='2xl' data-aos="zoom-in"
+ data-aos="zoom-in"
+ className='names'
   fontWeight='extrabold'>
-Full Stack Web Developer !,
+      <MovingText type="typewriter"
+  dataText={[
+   " Full Stack Web Developer !,",
+   "MERN Stack Developer !,"]}/>
 </Text>
-<Text   fontSize='33xl' data-aos="zoom-in">
+<Text className='bttexpalin'   fontSize='33xl' data-aos="zoom-in">
 I am a Full stack web developer doing militry style coding and learning MERN Stack at Masai School. I have done various group as well as individual projects in my coding journey.
 
 </Text>
@@ -77,7 +90,7 @@ I am a Full stack web developer doing militry style coding and learning MERN Sta
             </Box>
             </Center>
             </SimpleGrid>
-        </div>
+        </Box>
     )
 }
 
