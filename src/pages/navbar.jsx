@@ -41,7 +41,7 @@ const Navbar = () => {
                         <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
                 <a target="_blank" rel="noopener noreferrer" href={resume} download> 
-  <Button bgColor={'rgba(0,0,0,.9)'} onClick={()=>window.open("https://drive.google.com/file/d/1XF55OnCmbYdXk1PwR3Sgg7woUTsERSOe/view?usp=sharing",'_blank')} >
+  <Button bgColor={'rgba(0,0,0,.9)'} onClick={()=>window.open("https://drive.google.com/file/d/1g6tLeS-xdri5BkqiHnkZXXlcA3PPRf49/view?usp=sharing",'_blank')} >
   <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
   fontSize='xl'
   fontWeight='extrabold'>RESUME</Text> 

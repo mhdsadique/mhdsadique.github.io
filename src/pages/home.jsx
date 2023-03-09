@@ -16,7 +16,7 @@ const Home = () => {
     }))
      },[])
     return (
-        <Box  className='hero' id='home' >
+        <Box  className='hero' id='home'>
  <SimpleGrid columns={{lg:2,md:1,sm:1}} >
 <Center>
 
@@ -60,7 +60,7 @@ I am a Full stack web developer doing militry style coding and learning MERN Sta
 
 </Text>
 <a href={resume} download> 
-  <Button data-aos="zoom-in" onClick={()=>window.open("https://drive.google.com/file/d/1XF55OnCmbYdXk1PwR3Sgg7woUTsERSOe/view?usp=sharing",'_blank')} size='lg'   bgGradient={[
+  <Button data-aos="zoom-in" onClick={()=>window.open("https://drive.google.com/file/d/1g6tLeS-xdri5BkqiHnkZXXlcA3PPRf49/view?usp=sharing",'_blank')} size='lg'   bgGradient={[
     'linear(to-tr, teal.300, yellow.400)',
     'linear(to-t, blue.200, teal.500)',
     'linear(to-b, orange.100, purple.300)',
