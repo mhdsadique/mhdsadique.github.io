@@ -1,6 +1,11 @@
-import { Box, Button, Center, Grid, Heading, Image, Text } from '@chakra-ui/react'
-import { PhoneIcon } from '@chakra-ui/icons'
+import { Box, Button,  Flex, Heading} from '@chakra-ui/react'
 
+import { Container, IconButton,
+   VStack, HStack,
+  Wrap, WrapItem,} from '@chakra-ui/react';
+import {
+  MdPhone, MdEmail,} from 'react-icons/md';
+import { BsGithub,BsLinkedin } from 'react-icons/bs';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
@@ -14,63 +19,75 @@ export const Contact = () => {
     }))
      },[])
   return (
-    <Box id='contact'  w='100%' bg='rgba(0,0,0,.9)' textalign='center' marginTop={'70px'} >
-      <Center>
-
-      <Heading color={'white'} marginTop={'40px'} marginBottom='30px'>Contact Me</Heading>
-      </Center>
-      <Box data-aos="zoom-in">
-               {/* <Center> */}
-          <Center>
-        <Grid gap={10}>
-       <a href="https://www.linkedin.com/in/muhammed-sadique-064385230/" target={"_blank"} rel="noreferrer">
-       <Button color={'white'} gap='10px' size='md' height='48px' width='230px'border='2px'
-  bgGradient={[ 'linear(to-tr, rgba(0,0,0,.9), rgba(0,0,0,.9))' ]}
-  _hover={{
-    bgGradient:'linear(to-l, #7928CA, #FF0080)'}}>
-       <Image w="25px" src="https://media-exp1.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_100_100/0/1638831589865?e=1678924800&v=beta&t=g39mEwT0a4f25zx4YdClQnGd6q0Yb2ilFisuB3EPfng" alt="linkedIn"></Image>
-       <Text color={'white'} _hover={{color:"blue"}}
-       >Linkedin</Text>
-   </Button>
-       </a>
-
-
-       <a href="https://github.com/mhdsadique" target={"_blank"} rel="noreferrer">
-       <Button color={'white'} gap='10px' size='md' height='48px' width='230px'border='2px'
-  bgGradient={[ 'linear(to-tr, rgba(0,0,0,.9), rgba(0,0,0,.9))' ]}
-  _hover={{
-    bgGradient:'linear(to-l, #7928CA, #FF0080)'}}>
-       <Image w="25px" src="https://www.bing.com/th?id=OIP.ckeUFk-yid0vfWnd56w7wAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="github"></Image>
-       <Text color={'white'} _hover={{color:"blue"}}
-       >Github</Text>
-</Button>
-       </a>
-       <a href="mailto:mhdsadique8@gmail.com">
-       <Button color={'white'} gap='10px' size='md' height='48px' width='230px'border='2px'
-  bgGradient={[ 'linear(to-tr, rgba(0,0,0,.9), rgba(0,0,0,.9))' ]}
-  _hover={{
-    bgGradient:'linear(to-l, #7928CA, #FF0080)'}}>
-       <Image w="30px" src="https://www.bing.com/th?id=OIP.ZYBoGvR_bfdiAQLZZpVHQAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="email"></Image>
-       <Text color={'white'} _hover={{color:"blue"}}
-       >mhdsadique8@gmail.com</Text>
-   </Button>
-       </a>
-
-       <Button marginBottom='50px' color={'white'} gap='10px' size='md' height='48px' width='230px'border='2px'
-        // _hover={{color:"blue"}}
-  bgGradient={[ 'linear(to-tr, rgba(0,0,0,.9), rgba(0,0,0,.9))' ]}
-  _hover={{
-    bgGradient:'linear(to-l, #7928CA, #FF0080)',
-    color:'white'
-    }}>
-      <PhoneIcon/>
-       <Text color={'white'} _hover={{color:"blue"}}
-       >+91 8075342600</Text>
-   </Button>
-        </Grid>
-       </Center>
-
-        </Box>  
+    <Box id='contact'  w='100%'  textalign='center' marginTop={'70px'} data-aos="zoom-in">
+        <Container bg="#02054B" maxW="full" mt={0} centerContent >
+      
+          <Box 
+          bgGradient='linear(to-r, red.500, yellow.500)'
+            color="#02054B"
+            borderRadius="lg"
+            m={{ sm: 4, md: 16, lg: 10 }}
+            p={{ sm: 5, md: 5, lg: 10 }}>
+            <Box p={4}>
+              <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
+                <WrapItem>
+                  <Box>
+                    <Heading   color="white"  textAlign={'center'}>Contact Me</Heading>
+                    <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
+                      <VStack pl={0} spacing={3} alignItems="flex-start">
+                        <Button
+                          size="md"
+                          height="48px"
+                          width="250px"
+                          variant="ghost"
+                          color="#02054B"
+                          _hover={{ border: '2px solid #1C6FEB' }}
+                          leftIcon={<MdPhone color="#1970F1" size="20px" />}>
+                          +91-8075342600
+                        </Button>
+                        <a href="mailto:mhdsadique8@gmail.com">
+                        <Button
+                          size="md"
+                          height="48px"
+                          width="250px"
+                          variant="ghost"
+                          color="#02054B"
+                          _hover={{ border: '2px solid #1C6FEB' }}
+                          leftIcon={<MdEmail color="#1970F1" size="20px" />}>
+                          mhdsadique8@gmail.com
+                        </Button></a>
+                      </VStack>
+                    </Box>
+                    <HStack justifyContent={"center"}
+                      mt={{ lg: 5, md: 5 }}
+                      spacing={5}
+                      px={5}
+                      alignItems="flex-start">
+                        <a href="https://www.linkedin.com/in/muhammed-sadique-064385230/" target={"_blank"} rel="noreferrer">
+                      <IconButton
+                        aria-label="linkedin"
+                        variant="ghost"
+                        size="lg"
+                        isRound={true}
+                        _hover={{ bg: '#0D74FF' }}
+                        icon={<BsLinkedin size="28px" />}
+                      /></a>
+                       <a href="https://github.com/mhdsadique" target={"_blank"} rel="noreferrer">
+                      <IconButton
+                        aria-label="github"
+                        variant="ghost"
+                        size="lg"
+                        isRound={true}
+                        _hover={{ bg: '#0D74FF' }}
+                        icon={<BsGithub size="28px" />}
+                      /></a>
+                    </HStack>
+                  </Box>
+                </WrapItem>
+              </Wrap>
+            </Box>
+          </Box>
+      </Container>
     </Box>
   )
 }

@@ -60,7 +60,7 @@ I am a Full stack web developer doing militry style coding and learning MERN Sta
 
 </Text>
 <a href={resume} download> 
-  <Button data-aos="zoom-in" onClick={()=>window.open("https://drive.google.com/file/d/1g6tLeS-xdri5BkqiHnkZXXlcA3PPRf49/view?usp=sharing",'_blank')} size='lg'   bgGradient={[
+  <Button data-aos="zoom-in" onClick={()=>window.open("https://drive.google.com/file/d/18TexLXt6ZI91jwV4jv_QRPk1jyv6rFRB/view?usp=sharing",'_blank')} size='lg'   bgGradient={[
     'linear(to-tr, teal.300, yellow.400)',
     'linear(to-t, blue.200, teal.500)',
     'linear(to-b, orange.100, purple.300)',
@@ -72,7 +72,7 @@ I am a Full stack web developer doing militry style coding and learning MERN Sta
           <Center>
         <Flex gap={10}>
        <a href="https://www.linkedin.com/in/muhammed-sadique-064385230/" target={"_blank"} rel="noreferrer">
-       <Image data-aos="zoom-in" w="50px" src="https://media-exp1.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_100_100/0/1638831589865?e=1678924800&v=beta&t=g39mEwT0a4f25zx4YdClQnGd6q0Yb2ilFisuB3EPfng" alt="linkedIn"></Image>
+       <Image data-aos="zoom-in" w="50px" src="http://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" alt="linkedIn"></Image>
 
        </a>
        <a href="https://github.com/mhdsadique" target={"_blank"} rel="noreferrer">

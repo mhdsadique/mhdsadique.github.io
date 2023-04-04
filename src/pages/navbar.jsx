@@ -40,9 +40,10 @@ const Navbar = () => {
                 
                         <Link to="contact" activeStyle={{color: "orange"}} spy={true} smooth={true} offset={100} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
+    
                 <a target="_blank" rel="noopener noreferrer" href={resume} download> 
-  <Button bgColor={'rgba(0,0,0,.9)'} onClick={()=>window.open("https://drive.google.com/file/d/1g6tLeS-xdri5BkqiHnkZXXlcA3PPRf49/view?usp=sharing",'_blank')} >
-  <Text bgGradient='linear(to-r, red.500, yellow.500)'   bgClip='text'
+  <Button margin={'10px auto auto auto'} bgGradient='linear(to-r, red.500, yellow.500)'onClick={()=>window.open("https://drive.google.com/file/d/18TexLXt6ZI91jwV4jv_QRPk1jyv6rFRB/view?usp=sharing",'_blank')} >
+  <Text color="#02054B" 
   fontSize='xl'
   fontWeight='extrabold'>RESUME</Text> 
   </Button> 

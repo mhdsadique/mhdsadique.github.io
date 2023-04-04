@@ -4,6 +4,7 @@ import myntra from "./image/myntraImage.png"
 import revv from "./image/revvImage.png"
 import nyka from "./image/landing-nyka.png"
 import sephora from "./image/sephora-landing.png"
+import kfc from "./image/kfc_home.png"
 import "./project.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,6 +25,45 @@ export const Project = () => {
     <Box className='boxses'  id='projects' margin={'auto'}  marginTop='100px'marginBottom={'50px'} >
       <Heading  textAlign='center' marginBottom={'50px'}>Projects</Heading>
       <SimpleGrid columns={{lg:1,md:1,sm:1}} gap='50px'>
+      <Box   bgGradient='linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md' color={'rgba(0,0,0,.9)'} data-aos="zoom-in" >
+       <Grid gap={'20px'}>
+      <Box >
+        <img src={kfc} alt="clothiyard"  />
+      </Box>
+{/* -------------------box1----------- */}
+        <Heading color={'white'} marginTop={'10px'} size={'md'}>KFC </Heading>
+        <Text fontSize={'2xl'}>Kfc is an online fast-food restaurant, Order can KFC Items.</Text>
+        
+        <Text ><Text as='b'>Tech Stack :</Text>Typescript | NextJs | Chackra UI | CSS | Javascript | Redux| Jwt | Bcrypt | Express | Mongoose | Mongodb-atas</Text>
+        <Spacer/>
+        <Box w={'80%'} display='flex' alignItems={"center"} justifyContent="center"gap={"15px"} margin="auto">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mhdsadique/kfc_restuarant">  <Button
+      w='130px'p={4}color='white'
+  fontWeight='bold'borderRadius='md'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
+  _hover={{
+    bgGradient: 'linear(to-r, red.500, yellow.500)',
+  }}>Source Code
+  <Avatar size='xs' src='https://www.bing.com/th?id=OSK.b15146a8bebfb993c6dad4725c884d6d&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM' alt='github'/>
+  </Button>
+  </a>
+<a target="_blank" rel="noopener noreferrer" href="https://kfc-mhdsadique.vercel.app/">
+<Button
+      w='100px'
+  p={4}
+  color='white'
+  fontWeight='bold'
+  borderRadius='md'
+   bgGradient='linear(to-l, #7928CA, #FF0080)'
+  _hover={{
+    bgGradient: 'linear(to-r, red.500, yellow.500)',
+  }}>Live <ArrowRightIcon/>
+  </Button>
+  </a>
+  {/* </Flex> */}
+  </Box>
+  </Grid>
+      </Box>
 {/* ------------main */} {/* /------------box1 */}
 <Box   bgGradient='linear(to-r, red.500, yellow.500)'  boxShadow='dark-lg' p='6' rounded='md' color={'rgba(0,0,0,.9)'} data-aos="zoom-in" >
        <Grid gap={'20px'}>
@@ -34,7 +74,7 @@ export const Project = () => {
         <Heading color={'white'} marginTop={'10px'} size={'md'}>Clotheyard </Heading>
         <Text fontSize={'2xl'}>Clotheyard, is an shopping mall–based retailer of casual apparel and accessories, principally targeting young adults and teenagers through its Aéropostale stores.</Text>
         
-        <Text ><Text as='b'>Tech Stack :</Text> React.js | Chackra UI | HTML | CSS | Javascript | Express | Mongoose | Mongodb</Text>
+        <Text ><Text as='b'>Tech Stack :</Text> React.js | Chackra UI | Redux | CSS | Javascript | Express | Mongoose | Mongodb</Text>
         <Spacer/>
         <Box w={'80%'} display='flex' alignItems={"center"} justifyContent="center"gap={"15px"} margin="auto">
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/PriyanshuPatil/Clotheyard.com">  <Button
